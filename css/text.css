@@ -1,0 +1,130 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+	font-weight: normal; 
+	font-style: normal;
+	color:#333;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+.ssilka{width:1px;height:1px;position:fixed;overflow:hidden;bottom:0;}
+.ssilka a{margin:10px; color:white; font-size:1px;}
+
+.tr{text-align: right;}
+.tc{text-align: center;}
+.tl{text-align: left;}
+.tj{text-align: justify;}
+.mb20{margin-bottom: 20px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt60{margin-top: 60px;}
+.mt80{margin-top: 80px;}
+.mt100{margin-top: 100px;}
+.mt200{margin-top: 200px;}
+.mt185{margin-top: 185px;}
+.pl {padding-left: 10px;}
+span.red{color:#ed1b24;}
+span.white{color:#fff;}
+span.sh{text-shadow: 1px 1px 2px #000;}
+span.or{color:#fef200;}
+/* `Headings
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 34px;
+	font-weight: bold; 
+	font-style: normal;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: normal; 
+	font-style: normal;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold; 
+	font-style: normal;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: normal; 
+	font-style: normal;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: normal; 
+	font-style: normal;
+}
+
+h6 {
+  font-size: 26px;
+  font-weight: normal; 
+	font-style: normal;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+ul.soc{height:30px;overflow:hidden;}
+ul.soc li { float: left;
+    text-align: center;
+    width: 30px;}
+ul.soc li:hover{margin-top:2px;overflow:hidden;}
+ol {
+  list-style: decimal;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+
+}
+/*
+     FILE ARCHIVED ON 19:59:51 Oct 09, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:56:25 Feb 22, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -129,5 +129,17 @@
 
 #call {
   display: none;
-  position: absolute;
+  position: fixed;
+  width: 25%;
+  padding: 15px 20px 20px;
+}
+#call:hover {
+  background: url(/img/bg_form.png) 0 0 repeat;
+  border: 2px solid #000000;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+#call img {
+  width: 100%;
 }

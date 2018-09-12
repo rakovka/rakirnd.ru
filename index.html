@@ -17,13 +17,22 @@
 
 	<script src="/js/responsiveslides.min.js"></script>
 	<link rel="stylesheet" href="/css/responsiveslides.css">
-	<link rel="stylesheet" href="/css/themes.css?v2">
+	<link rel="stylesheet" href="/css/themes.css?v3">
   <script>
     // You can also use "$(window).load(function() {"
     $(function () {
 
         if (window.mobilecheck()) {
-            $('#call').show();
+            setTimeout(function () {
+                $('#call').show();
+                setTimeout(function () {
+                    $('#call').hide();
+                    setTimeout(function () {
+                        $('#call').show();
+                    }, 500);
+                }, 500);
+            }, 1000);
+
 		}
 
       // Slideshow 1
@@ -46,7 +55,7 @@
 
     });
   </script>
-  <script type="text/javascript" src="/js/mains.js?v1"> </script>
+  <script type="text/javascript" src="/js/mains.js?v2"> </script>
   <script type="text/javascript" src="/js/price.js"></script>
 </head>
 <body>

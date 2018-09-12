@@ -132,6 +132,10 @@
   position: fixed;
   width: 25%;
   padding: 15px 20px 20px;
+  border: 2px solid transparent;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
 }
 #call:hover {
   background: url(/img/bg_form.png) 0 0 repeat;

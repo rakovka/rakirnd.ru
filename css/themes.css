@@ -130,7 +130,7 @@
 #call {
   display: none;
   position: fixed;
-  width: 25%;
+  width: 20%;
   padding: 15px 20px 20px;
   border: 2px solid transparent;
   z-index: 999;
@@ -146,4 +146,9 @@
 }
 #call img {
   width: 100%;
+}
+@media only screen and (orientation: landscape) {
+    #call {
+        width: 10%;
+    }
 }

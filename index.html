@@ -28,10 +28,16 @@
                 setTimeout(function () {
                     $('#call').hide();
                     setTimeout(function () {
-                        $('#call').show();
+						$('#call').show();
+                        setTimeout(function () {
+							$('#call').hide();
+							setTimeout(function () {
+								$('#call').show();
+							}, 500);
+						}, 500);
                     }, 500);
                 }, 500);
-            }, 1000);
+            }, 2000);
 
 		}
 

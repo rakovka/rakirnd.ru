@@ -50,9 +50,9 @@ color: #000;
 	height:719px;
 	color:#fef200;
 }
-.triger_1{background: url("/img/triger_1.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
-.triger_2{background: url("/img/triger_2.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
-.triger_3{background: url("/img/triger_3.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
+.triger_1{background: url("/img/triger_1_2.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
+.triger_2{background: url("/img/triger_2_2.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
+.triger_3{background: url("/img/triger_3_2.png") no-repeat 0 0;height: 50px;padding: 8px 0px 0px 60px;color:#fff;}
 .but_form{
 	background: url('/img/but_form.png') 0 0 no-repeat;
 	color: #fff;
